@@ -1,0 +1,54 @@
+1. Instalación
+  -Link de la universidad
+  -"Matlab por defecto"(Instalación por defecto) (Mencion de las versiones disponibles)
+  -Cómo instalar un toolbox (add-on manager)
+  -Aditional packages (Hardware)
+  
+2. Enterno
+  -Versiones(2012b-2013a)
+  -Current folder (Mención de la importancia de carpetas para projectos y funcionamiento de "change folder", "add to path")
+  -Comand window (Funciones principales: clc,help,doc,diary)
+  -Workspace (Funciones principales: clear, save, ans)
+  -Editor (Características principales: Keywrods, coments, strings, errors, warings)
+  
+3. Variables
+  -Introducción
+  -Tipos principales de variables (Mención de posibles conversiones entre ellas)
+  -Matrices y vectores genéricos (zeros, ones, rand, eye, linspace)
+  -Manejo de vectores/matrices (Funciones principales: length, size, sort, end)
+  
+4.Operadores 
+  -Introducción (Siendo # una operación cualsequiera, mencionar la diferencia entre la operación a#b y a.#b)
+  -Operadores aritméticos
+    *Suma
+    *Resta
+    *Multiplicación
+    *División
+    *Potenciación
+    *Funciones prod y sum
+    *Funciones de aproximación (ceil, fix, floor, round)
+    *Funciones mod y rem
+  -Operadores lógicos
+    *Funciones (and, or, not, xor)
+  -Operadores relacionales
+    *Funciones (<, >, <=, >=, ==, ~=)
+5.Gráficas
+  -Introducción (Mencionar detalles de presición del graficador debido al manejo de vectores)
+  -Manejo de funciones(Mención de las funciones por vectores, o por symbolic, o por function handle)
+  -Graficas en 2d (Funciones que grafican en 2d: Plot, area, bar, pie, graph, ezline,fplot,hold on, hold off)
+  -Grafos(Mención muy superficial)
+  -Graficas en 3d (Mención y breve explicación de graficadores en 3d: surf, mesh, pie3)
+  
+6. Sentencias de programación
+  -Introducción (Mención de identación en el editor para las estructuras)
+  -Sentencia if (Estructura principal, else if, else)
+  -Sentencia for (Estructura principal, continue, break)
+  -Sentencia while (Estructura principal, continue, break)
+
+7. Funciones
+  -Introducción (Mención de sus usos principales)
+  -Creación de funciones (Estructuras principales)
+  -Uso de funciones (cómo llamar funciones en el código principal)
+  
+
+  
