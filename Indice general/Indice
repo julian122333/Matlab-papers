@@ -4,12 +4,12 @@
   -Cómo instalar un toolbox (add-on manager)
   -Aditional packages (Hardware)
   
-2. Enterno
+2. Entorno
   -Versiones(2012b-2013a)
   -Current folder (Mención de la importancia de carpetas para projectos y funcionamiento de "change folder", "add to path")
   -Comand window (Funciones principales: clc,help,doc,diary)
   -Workspace (Funciones principales: clear, save, ans)
-  -Editor (Características principales: Keywrods, coments, strings, errors, warings)
+  -Editor (Características principales: Keywords, coments, strings, errors, warings)
   
 3. Variables
   -Introducción
