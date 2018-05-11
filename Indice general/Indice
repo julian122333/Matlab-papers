@@ -3,13 +3,14 @@
   -"Matlab por defecto"(Instalación por defecto) (Mencion de las versiones disponibles)
   -Cómo instalar un toolbox (add-on manager)
   -Aditional packages (Hardware)
+  -Servicios online
   
 2. Entorno
   -Versiones(2012b-2013a)
   -Current folder (Mención de la importancia de carpetas para projectos y funcionamiento de "change folder", "add to path")
   -Comand window (Funciones principales: clc,help,doc,diary)
   -Workspace (Funciones principales: clear, save, ans)
-  -Editor (Características principales: Keywords, coments, strings, errors, warings)
+  -Editor (Características principales: Keywords, coments, strings, errors, warnings)
   
 3. Variables
   -Introducción
