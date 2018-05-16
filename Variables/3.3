@@ -1,0 +1,84 @@
+Aclaciones antes de ser colocado o publicado
+1) cuando hay un parentesis "()" eso es del texto
+2) para doble parentesis "(())" es para notas del posible gefe de esta entrega que es my lord señor Warlon :v
+3) no use % porque me da pereza v:
+4) me baso en un libro solo la metodologia en como se presenta el tema, mas no de los ejemplos y aclaraciones.
+
+
+3.3 Matrices y vectores genericos
+
+3.1 Crear matrices
+En la teoria podemos hacer una definición que una matriz es un arreglo rectangular de elementos 
+(para saber algo de teoria de matrices, se recomeinda leer "algebra lineal" de Groosman)
+((aunque recomiendo una bibliografia en este caso escojo el N°18))
+aqui en Matlab se maneja mas que todo matrices, para crear una matriz se hace de la siguiente manera:
+Se utiliza una variable, y lo escribimos tanto en el script o en el command window
+x=["el argumento"]
+el argumento puede ser una lista de números
+por ejemplo:
+X=[23]
+(imagen mostrada desde el script)
+(imagen mostrada lo que sale cuando en el command window)
+Como vemos esto genera una matriz 1x1 con el numero 23.
+es importante el uso de corchetes, ya que si lo hacen con parentesis solo sera un número.
+Para colocar mas números lo que hacemos es separar cada numero con una coma o espacio
+por ejemplo:
+Y=[23,22] ó Y=[23 22]
+(imagen mostrada desde el script)
+(imagen mostrada lo que sale cuando en el command window)
+Aquí vemos que nos genero una matriz 1x2.
+si hay mas de un número y se usa el los corcherte conducira a un error.
+(Se pide al lector que lo haga que verifique que pasa si utiliza los parentesis)
+Podemos hacer colocar cuantos numeros se quiera
+De hecho si hacemos z=[12,18,4,...,n] tendremos una matriz 1xn
+(de aqui en adelante se utiliza la coma para separar las componentes, pero el lector puede hacer espacios si prefiere)
+Para crear una matriz que tenga mas de una fila se utiliza ";"
+Se usa el punto y coma entre columnas ((aqui si cite de un libro))
+A=[11,30;14,5]
+Vemos que si hacemos esto, nos aparecera una matriz 2x2
+el uso del punto y coma es obligatorio si se quiere tener mas filas
+Si se quiere pensar como es la metologia de punto y coma aqui, 
+puede pensar, que le decimos a la "maquina" que despues del punto y coma es otra columna.
+A=[11,30;14,5;19,9]
+Vemos que aqui ya es una matriz 3x2
+de hecho si colocamos m-1 punto y coma, con n números entre los punto y coma; tenemos una matriz de mxn.
+Precaución: en cada fila debe haber el mismo número de elementos, ya que producira error
+por ejemplo:
+B=[11,30;14,5;19]
+(Se pide al lector que lo haga que verifique que pasa si utiliza los parentesis)
+Si no hay un argumento la matriz generada es vacia.
+
+3.3.2 Matrices con espaciado
+Muchas veces queremos generar una matriz en la cual su siquiente elemento tenga cierta proporción.
+Por ejemplo:
+C=[1,2,3,4,5,6,7,8,9,10]
+puede que esto sea facil, pero de pronto requeriremos en adelante mas numero y ya es molesto y hacemos esto hast 50 o 100 o 1'000.000
+Con lo cual en vez de escribir todos esos números podemos utilizar el siguiente comando
+D=1:10
+(imagen mostrada desde el script)
+(imagen mostrada lo que sale cuando en el command window)
+Podemos mirar que aqui no se utilizo corchetes, pero se puede colocar (recomendamos al lector que lo haga siempre)
+D=[1:10]
+(imagen mostrada desde el script)
+(imagen mostrada lo que sale cuando en el command window)
+Aqui le decimos a la "maquina" que tome todos lo numeros del 1 al 10 con un espacio de unidad
+si el espaciado no es una unidad toca especificarlo
+Por ejemplo:
+E=[1:1/2:5]
+(imagen mostrada desde el script)
+(imagen mostrada lo que sale cuando en el command window)
+Observe que ya no muestra solo enteros, tambien fracciones, de los cuales su espaciado es 1/2
+tambien se puede cambiar el numero el cual inicia y finaliza
+F=[1/2:1/4:3/2]
+Precaución: Si el numero que toma al iniciar es mayor que el final, nos diran que es vacio.
+Hay otro codigo el cual es "linspace".
+
+3.3.3 Matrices especificas
+Podemos
+
+
+
+Ejercicios
+1) Que valor ó valores arroja A=[1/2:1/4:2/3] ,explique que pasa.
+2) Genere una matriz vacia.
+4) sea A=([1 9],1,10) demostrar que hay un numero que se repite (se recomienda utilizar el principio del palomar)
