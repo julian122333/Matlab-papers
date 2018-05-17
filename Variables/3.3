@@ -2,7 +2,6 @@ Aclaciones antes de ser colocado o publicado
 1) cuando hay un parentesis "()" eso es del texto
 2) para doble parentesis "(())" es para notas del posible gefe de esta entrega que es my lord señor Warlon :v
 3) no use % porque me da pereza v:
-4) me baso en un libro solo la metodologia en como se presenta el tema, mas no de los ejemplos y aclaraciones.
 
 
 3.3 Matrices y vectores genericos
@@ -20,7 +19,7 @@ X=[23]
 (imagen mostrada desde el script)
 (imagen mostrada lo que sale cuando en el command window)
 Como vemos esto genera una matriz 1x1 con el numero 23.
-es importante el uso de corchetes, ya que si lo hacen con parentesis solo sera un número.
+es importantse el uso de corchetes, ya que si lo hacen con parentesis solo sera un número.
 Para colocar mas números lo que hacemos es separar cada número con una coma o espacio
 por ejemplo:
 Y=[23,22] ó Y=[23 22]
@@ -33,7 +32,7 @@ Podemos hacer colocar cuantos numeros se quiera
 De hecho si hacemos z=[12,18,4,...,n] tendremos una matriz 1xn
 (de aqui en adelante se utiliza la coma para separar las componentes, pero el lector puede hacer espacios si prefiere)
 Para crear una matriz que tenga mas de una fila se utiliza ";"
-Se usa el punto y coma entre columnas ((aqui si cite de un libro))
+Se usa el punto y coma entre filas.
 A=[11,30;14,5]
 Vemos que si hacemos esto, nos aparecera una matriz 2x2
 el uso del punto y coma es obligatorio si se quiere tener mas filas
@@ -72,13 +71,38 @@ tambien se puede cambiar el numero el cual inicia y finaliza
 F=[1/2:1/4:3/2]
 Precaución: Si el numero que toma al iniciar es mayor que el final, nos diran que es vacio.
 Hay otro codigo el cual es "linspace".
+Por ejemplo:
+G=linspace(1,10)
+este codigo genera 100 números equidistantes de que estaran entre el 1 y el 10
+(no se mostrara la imagen, por lo largo que es, pero se recomienda que el lector lo haga)
+Muchas veces no necesitaremos 100 números, por lo cual se puede modificar:
+Por ejemplo:
+G=linscape(1,10,5)
+El otro "parametro" es para saber cuandos numeros queremos que esten equidistantes de 1 a 10
+(imagen mostrada desde el script)
+(imagen mostrada lo que sale cuando en el command window)
+De hecho hay la formula que utiliza este comando para saber cuanto es el espaciado:
+linspace=(x1,x2,n)
+espaciado=(x2-x1)/(n-1)
 
 3.3.3 Matrices especificas
-Podemos
+Hay matrices en la cuales matlab nos da mas facilidad de hacerlas y la cuales son importantes.
+Hay una matriz en la cual todas sus componentes son ceros, el cual es la identidad de la suma de matrices.
+En matlab hay un comando para crearla y es el siguiente "zeros".
+H=Zeros(x1,x2)
+Por ejemplo:
+H=zeros(2,3)
+(imagen mostrada desde el script)
+(imagen mostrada lo que sale cuando en el command window)
+
 
 
 
 Ejercicios
 1) Que valor ó valores arroja A=[1/2:1/4:2/3] ,explique que pasa.
 2) Genere una matriz vacia.
+3) Genere una matriz con linspace, el cual genere solo numeros enteros.
 4) sea A=([1 9],1,10) demostrar que hay un numero que se repite (se recomienda utilizar el principio del palomar)
+
+
+Citas
