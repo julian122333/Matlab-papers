@@ -1,0 +1,4 @@
+Introducción
+el objetivo de este paper no es enseñar a programar desde cero sino dar una primera introducción al lenguaje usado en el programa Matlab, además de enseñar sus más básicos comandos y mostrar algunas funciones extra. 
+Está planeado para los estudiantes de la carrera de matemáticas de la universidad francisco José de caldas pero busca ser objetivista para que pueda ser entendido por cualquier lector interesado en este programa.
+Matlab (Matrix Laboratory) desarrollado en 1987 por MathWorks y Cleve Moler es un software que busca el manejo de procesos matemáticos tales como manipulación  de matrices, representación de datos y funciones además de tener su propio lenguaje de programación 
